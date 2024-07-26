@@ -1,3 +1,69 @@
-html{
-    background-color: black;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&display=swap');
+.head{
+    background-color: rgba(0, 0, 0, 0.894);
+}
+h2{
+    color: rgb(230, 83, 60);
+    margin-left: 40px;
+
+}
+
+.nab{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.mbar{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+.menubar{
+    border: 2px solid red;
+    border-radius: 40px;   
+    margin-top: 20px;
+    margin-right: 40px;
+}
+ul >li{
+    margin-right: 40px;
+    border-radius: 40;   
+    font-size: 13px;
+    font-family: inter;  
+}
+ul{
+    align-items: center;
+}
+#btn{
+    background-color: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    padding: 8px 15px;
+    border-radius: 40px;
+    border: none;
+
+}
+h1{
+    font-size: 78px;
+    font-family: inter;
+    color: white;
+    margin-left: 40px;
+}
+#special{
+    font-family: "Playwrite SK";
+    font-size: 78px;
+    text-align: left;
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 40px;
+}
+section{
+    display: flex;   
+}
+.firstimg{
+    margin-left: 200px;
 }
