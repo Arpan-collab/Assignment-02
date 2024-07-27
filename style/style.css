@@ -1,12 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+    border: 2px solid aquamarine;
+}
 .head{
     background-color: rgba(0, 0, 0, 0.894);
+    padding-left: 50px;
+    padding-right: 50px;
+    
+
 }
+
 h2{
     color: rgb(230, 83, 60);
-    margin-left: 40px;
+    font-size: 50px;
+    font-family: inter;  
 
 }
 
@@ -24,7 +34,7 @@ h2{
     
 }
 .menubar{
-    border: 2px solid red;
+    border: 2px solid grey;
     border-radius: 40px;   
     margin-top: 20px;
     margin-right: 40px;
@@ -41,29 +51,90 @@ ul{
 #btn{
     background-color: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
-    padding: 8px 15px;
+    padding: 8px 15px 8px 15px;
     border-radius: 40px;
     border: none;
 
 }
 h1{
-    font-size: 78px;
+    color:rgb(255, 255, 255);
     font-family: inter;
-    color: white;
-    margin-left: 40px;
-}
-#special{
-    font-family: "Playwrite SK";
     font-size: 78px;
+    font-weight: 600;
+}
+.quates{
+    color:rgba(255, 255, 255, 0.5) ;
+}
+.special{
+    font-family: "Kaushan Script"
+   
+}
+.gapuse{
+    margin-right: 37px;
+
+}
+
+#bttn{
+    color: rgb(255, 255, 255);
+    padding: 8px 15px 8px 15px; 
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.342);
+    margin-left: 10px;
+    border-color: white;
+}
+.pera{
+  display: flex;
+}
+#hi{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    height: 20px;
+    
+}
+#cl{
+    margin-top: 200px;
+    background-color: gray;
+    border-radius: 18px;
+    width: 150px;
     text-align: left;
+    
+
 }
-p{
+#hello{
+    color:rgba(255, 255, 255, 0.65);
+}
+.dure-ja{
+   /* display: flex;
+    flex-direction: column-reverse;
+    height: ;
+    width: 200px; */
+}
+
+.ki{
+    text-align: center;
+    color: white;
+   
+}
+.big-text{
+    font-family: inter;
+    font-size: 48px;
+}
+.small-text{
+    font-family: inter;
+    font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
-    margin-left: 40px;
+    
 }
-section{
-    display: flex;   
+.for-pad{
+    background-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-.firstimg{
-    margin-left: 200px;
+
+.center >img{
+    border-radius: 50%;
+}
+.center{
+    align-items: center;
+    justify-content: space-between;
 }
